@@ -3,7 +3,7 @@ import logging
 import random
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackContext, CallbackQueryHandler
-From keep_alive import keep_alive
+from keep_alive import keep_alive
 keep_alive()
 
 # Enable logging

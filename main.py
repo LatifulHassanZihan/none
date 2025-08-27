@@ -249,7 +249,7 @@ async def error_handler(update: Update, context: CallbackContext) -> None:
 # Main function
 def main() -> None:
     # Get the bot token from environment variable
-    token = os.getenv('7922254969:AAF255dJG6x7VVqjDkXP00gFaNc60ULdA4s')
+    token = os.getenv('7922254969:AAG8O460ydaWYs4ISAdxI2IffTnssfXLh7Y')
     if not token:
         print("Please set the TELEGRAM_BOT_TOKEN environment variable")
         return

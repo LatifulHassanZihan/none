@@ -18,7 +18,7 @@ TOKEN = "7922254969:AAF255dJG6x7VVqjDkXP00gFaNc60ULdA4s"
 
 # API Keys (replace with your actual API keys)
 REMOVE_BG_API_KEY = "tubgF1Th7KYswjvZoHjTgQKH"
-CONVERT_API_SECRET = "YOUR_CONVERT_API_SECRET"
+CONVERT_API_SECRET = "a96cEUVfOnozhOibqUI5espOcVdKyQzv"
 
 # Developer information
 DEVELOPER = "👨‍💻 Latiful Hassan Zihan 🇵🇸"

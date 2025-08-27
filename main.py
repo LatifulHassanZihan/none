@@ -6,6 +6,7 @@ from telegram.ext import Application, CommandHandler, CallbackContext, CallbackQ
 from keep_alive import keep_alive
 keep_alive()
 
+
 # Enable logging
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -249,7 +250,7 @@ async def error_handler(update: Update, context: CallbackContext) -> None:
 # Main function
 def main() -> None:
     # Get the bot token from environment variable
-    token = os.getenv('7922254969:AAG8O460ydaWYs4ISAdxI2IffTnssfXLh7Y')
+    token = os.getenv('TELEGRAM_BOT_TOKEN')
     if not token:
         print("Please set the TELEGRAM_BOT_TOKEN environment variable")
         return
@@ -274,3 +275,5 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+
+

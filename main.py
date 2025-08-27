@@ -13,7 +13,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Bot token from BotFather (replace with your actual token)
-TOKEN = "YOUR_BOT_TOKEN_HERE"
+TOKEN = "7922254969:AAF255dJG6x7VVqjDkXP00gFaNc60ULdA4s"
 
 # Developer information
 DEVELOPER = "👨‍💻 Latiful Hassan Zihan 🇵🇸"
